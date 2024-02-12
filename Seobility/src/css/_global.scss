@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background: white;
+  padding: 0 calc(20px - (100vw - 100%)) 0 0;
+}
+
+#app {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 30px;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
